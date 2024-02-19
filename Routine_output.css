@@ -1,0 +1,31 @@
+.main{
+    /* margin: auto; */
+    background-color: aliceblue;
+
+}
+.header{
+
+   display: flex; 
+   justify-content:center;
+}
+.container {
+    margin: 90px 200px;
+    display: grid;
+    grid-template-columns: repeat(7, 150px);
+    grid-gap: 10px 10px;
+}
+.article {
+    background-color: rgb(104, 190, 236);
+    height: 80px; 
+    border-radius: 5px;
+    text-align: center;
+}
+.article-12{
+    background-color: rgb(98, 155, 173);
+    grid-row: auto/span 5; 
+    border-radius: 5px;
+    align-items: center;
+}
+.ar{
+    background-color: rgb(64, 102, 172);
+}

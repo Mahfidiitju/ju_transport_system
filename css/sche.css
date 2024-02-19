@@ -1,0 +1,24 @@
+.table{
+    margin: auto;
+    color: black;
+ }
+ .tbl{
+     background-color: rgb(145, 189, 145);
+ }
+ .submit_btn{
+    width: 20%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    /* background: linear-gradient(to right,#ff105f,#ffad06); */
+    background: linear-gradient(to right,#078631,#17ca44);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    margin-top: 20px;
+ } 
+ .h11{
+     margin-left: 43%;
+     font-size: 25px;
+ }

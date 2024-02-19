@@ -1,0 +1,89 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'RocknRoll One', sans-serif; 
+}
+.login{
+    width: 350px;
+    height: 420px;
+    background:black; 
+    color:white;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 15px;
+    box-shadow: 20 20 20px 90px #2b28271f;
+} 
+.avatar{
+    align-items: center;
+}
+.hero{
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../image/log1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+img{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left:calc(50% - 50px);
+}
+h1{
+    margin:0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+
+}
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.login input[type="text"],input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height:40px;
+    color: #fff;
+    font-size: 15px;
+
+}
+.login input[type="submit"]
+{
+    border: none;
+    margin-left: 23px;
+    margin-top: 20px;
+    outline: none;
+    height:40px;
+    width:80%;
+    background:green;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.login input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:rgb(51, 126, 51);
+    color:#000;
+}
+

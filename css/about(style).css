@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.bg1{
+    flex: 1;
+    background-color:rgb(116, 209, 109);;
+}
+.bg2{
+    flex: 1;
+    background-color:rgb(76, 187, 68);
+}
+.about-container{
+    width:85%;
+    min-height: 80vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgb(59, 58, 58);
+}
+.img-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container img{
+    width:400px;
+    height:400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.text-container{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-container h1{
+    font-size: 40px;
+    padding: 10px 0px;
+    color: green;
+}
+.text-container p{
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align:justify;
+    margin-right: 40px;
+}
